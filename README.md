@@ -1,5 +1,7 @@
 ## spark-summit-2019-demo
-Demo created for "Life is but a Stream" presentation at Spark AI Summit 2019 (San Francisco, CA). The Notebook found within this repository is meant to be run on a Databricks cluster. If you do not have access to one already, you can [signup](https://databricks.com/try-databricks) to run the demo.
+Demo created for [Life is but a Stream](https://databricks.com/sparkaisummit/north-america/sessions-single-2019?id=125) presentation at Spark AI Summit 2019 (San Francisco, CA). The Notebook found within this repository is meant to be run on a Databricks cluster. If you do not have access to one already, you can [signup](https://databricks.com/try-databricks) to run the demo.
+
+If you simply want to see the results and visuals that were generated at each step of the demo, then you can view the _SEC Apache Logs.html_ page contents. Otherwise, follow the setup steps below to be able to generate these results for yourself. Note that this content was originally created using Spark 2.4.0 with the Databricks Runtime (DBR) Version 5.3.
 
 ### AWS Setup
 1. Create/log into your AWS account and establish an access key and secret using IAM.

@@ -9,7 +9,7 @@ If you simply want to see the results and visuals that were generated at each st
 3. Create a Kinesis Data Stream called _spark-summit-2019_ with the default settings.
 4. Create a DynamoDB table called _sec-company-lookup_, with a primary partition key called _cik_ (STRING). Override the default settings to configure the table to use ON-DEMAND capacity.
 5. Create a Lambda function called _sec-company-lookup_, targeting _Node.js 8.10_, using the contents of _lambda.js_.
-6. Create an AWS Gateway API that passes requests through to the _sec-company-lookup_ Lambda function. Deploy the API Gateway, and copy the public URL into Notebook cell 26.
+6. Create an AWS Gateway API that passes requests through to the _sec-company-lookup_ Lambda function. Deploy the API Gateway, and configure the public URL within the _SEC Apache Logs_ notebook, in the first code cell..
 
 ### Data Setup
 1. Download [SEC EDGAR web server logs](https://www.sec.gov/dera/data/edgar-log-file-data-set.html) to your local computer.
